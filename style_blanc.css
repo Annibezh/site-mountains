@@ -1,0 +1,45 @@
+header{
+    background-image: url(https://images.wallpaperscraft.com/image/mountains_clouds_peaks_119921_2560x1080.jpg);
+    margin: 10px 100px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 72px;
+    text-align: center;
+    padding: 10px 0px;
+    color:#454545;
+}
+main{
+    margin: 0px 100px;
+    background-color: #F3F3F3;
+}
+nav{
+    margin: 0px 100px 10px 100px;
+}
+#menu li a:visited{
+    color:#101168;
+}
+#menu li a{
+    color: #090A4E;
+}
+.text{
+    font-size: 16px;
+}
+.galery{
+    margin:10px 10px 0px 10px;
+    height:500px;
+}
+#img_up{
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    width:32px;
+    opacity: 0.5;
+}
+.h_class{
+    margin: 0px 0px 10px 50px;
+}
+.text_div_class{
+    margin: 0px 50px 10px 50px;
+}
+#general_p{
+    margin-right: 20px;
+}

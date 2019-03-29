@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Elbrus</title>
+    <link rel="stylesheet" href="style_elbrus.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script:700" rel="stylesheet">
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+    <script type="text/javascript">
+     $(document).ready(function(){
+        $("#menu").on("click","a", function (event) {
+            event.preventDefault();
+            var id  = $(this).attr('href'),
+                top = $(id).offset().top;
+            $('body,html').animate({scrollTop: top}, 1000);
+        });
+    });
+    </script>
+</head>
+<body>
+   <div>
+      <a href="#yak0">
+          <img id="img_up" src="https://image.flaticon.com/icons/svg/25/25649.svg" >
+      </a>
+   </div>
+    <header id="yak0">Elbrus</header>
+    <nav>
+       <ul class="nav">
+          <li class="nav-item">
+            <a href="index.html" class="nav-link">Home page</a>
+          </li>
+          <span id="menu" class="nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#yak1">General</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#yak2">History</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#yak3">Infrastructure</a>
+          </li>
+          </span>
+        </ul>
+    </nav>
+    <main>
+        <div class="row align-items-start">
+            <div class="col galery">
+              <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                  <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                  </ol>
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img class="d-block w-100 h-90" src="https://upload.wikimedia.org/wikipedia/commons/e/e5/Mount_McKinley_Denali_Closeup_2800px.jpg" alt="First slide">
+                    </div>
+                    <div class="carousel-item">
+                      <img class="d-block w-100" src="https://tramontana.ru/upload/medialibrary/440/elbrus_01_big.jpg">
+                    </div>
+                    <div class="carousel-item">
+                      <img class="d-block w-100" src="https://static.rmiguides.com/_includes/_images/programs/elbrus_south-header.jpg" alt="Third slide">
+                    </div>
+                    <div class="carousel-item">
+                      <img class="d-block w-100" src="https://d3rr2gvhjw0wwy.cloudfront.net/uploads/activity_headers/101707/900x600-1-50-50c2af9b694644eea1a4c4067c236f7d.jpg" alt="Fourth slide">
+                    </div>
+                  </div>
+                  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                  </a>
+                  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                  </a>
+                </div>
+            </div>
+            <div class="col text">
+                <h2 id="yak1">General</h2>
+                    <p>Mount Elbrus (Russian: Эльбру́с, tr. Elbrus) is the highest mountain in Europe, and the tenth most prominent peak in the world. A dormant volcano, Elbrus is in the Caucasus Mountains in Southern Russia, near the border with Georgia. </p>
+                    <p>Elbrus has two summits, both of which are dormant volcanic domes. The taller west summit is 5,642 metres (18,510 ft); the east summit is 5,621 metres (18,442 ft). The east summit was first ascended on 10 July 1829 (Julian calendar) by Khillar Khachirov, and the west summit in 1874 by a British expedition led by F. Crauford Grove and including Frederick Gardner, Horace Walker, and the Swiss guide Peter Knubel of St. Niklaus.</p>
+                    <p>Khachirov's nationality is claimed both by Kabardians and Karachay and used by nationalists of both sides. He was a guide for an Imperial Russian army scientific expedition led by General Georgi Emmanuel.
+                    While authorities differ on how the Caucasus are distributed between Europe and Asia, most relevant modern authorities define the continental boundary as the Caucasus watershed, placing Elbrus in Europe due to its position on the north side in Russia.</p>
+            </div>
+            <div>
+                <h2 id="yak2" class="h_class">History</h2>
+                   <div class="text_p">
+                        <p>The ancients knew the mountain as Strobilus, Latin for "pine cone", a direct loan from the ancient Greek strobilos, meaning 'a twisted object' – a long established botanical term that describes the shape of the volcano's summit. In Greek mythology, the Titan Prometheus was chained to the mountain by Zeus as a punishment for stealing fire from the gods and giving it to mankind.</p>
+                        <p>The lower of the two summits was first ascended on 10 July 1829 (Julian calendar) by Khillar Khachirov, a guide for an Imperial Russian army scientific expedition led by General Emmanuel, and the higher (by about 40 m; 130 ft) in 1874 by an English expedition led by F. Crauford Grove and including Frederick Gardner, Horace Walker, and the Swiss guide Peter Knubel of St. Niklaus in the canton Valais. During the early years of the Soviet Union, mountaineering became a popular sport of the populace, and there was tremendous traffic on the mountain. On 17 March 1936, a group of 33 inexperienced Komsomol members attempted the mountain, and ended up suffering four fatalities when they slipped on the ice and fell to their deaths.</p>
+                    </div>
+                
+                <h2 id="yak3" class="h_class">Infrastructure</h2>
+                   <div class="text_p">
+                        <p>In 1929, eleven scientists erected a small hut at 4,160 metres and called it "Priyut 11" (Refuge of the 11). At the same site, a larger hut for 40 people was built in 1932.
+                        A wilderness hut was built in 1933 in the saddle between the two summits but collapsed after only a few years. Its remains can still be seen.
+                        In 1939, the Soviet Intourist travel agency built yet another structure a little above the "Priyut 11" site at 4,200 metres, covered in aluminium siding. It was meant to accommodate western tourists, who were encouraged to climb Mount Elbrus in commercial, guided tours at the time to bring in foreign currency.
+                        Not much later, this hut was converted into a mountain barracks, serving as a base, first for Soviet and later German troops in the Battle of the Caucasus of World War II.</p>
+                        <p>On 16 August 1998, this hut completely burned down after a cooking stove fell over. After that, the new "Diesel hut" was built in the summer of 2001 a few metres below its ruins, so called because it is located at the site of the former Diesel generator station.</p>
+                        <p>n addition, there is a collection of accommodations for six people each at the end of the short chairlift upwards of the second cableway section. Painted red and white, these horizontal steel cylinders (called Barrels, Russian bochki), are used as a base and for acclimatization by many mountaineers on their way to the summit. Beside the "Barrels", there are several container accommodations between about 3,800 and 4,200 metres.</p>
+                    </div>
+            </div>
+        </div>
+    </main>
+    <footer class="page-footer font-small blue">
+      <div class="footer-copyright text-center py-3">© 2018 Copyright:
+        <a href="index.html"> Explorer Mountains</a>
+      </div>
+    </footer>
+</body>
+</html>
